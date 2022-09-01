@@ -120,3 +120,7 @@ const result09 =
 const result010 = 0 || "" || null; //全てfalsyの時は一番右が返る
 
 console.log(result08, result09, result010);
+
+//追記  null型演算子"??"
+// A ?? B
+// Aがnullまたはundifinedの時にBを返す。
